@@ -50,3 +50,13 @@ document.addEventListener('scroll', () => {
   homeInner.style.opacity = 1 - window.scrollY / homeHeight;
   // opacity (0 : transparent, 1 : untransparent)
 });
+
+// Show usage filtering
+const albumCategory = document.querySelector('.uses_album_categories');
+const albumPhoto = document.querySelector('.uses_album_photo img');
+albumCategory.addEventListener('click', e => {
+  const target = e.target.nodeName === 'LI' ? e.target : e.target.parentNode;
+  const order = target.dataset.order;
+  if (target.nodeName === 'LI') albumPhoto.setAttribute('src', `img/uses/uses_photo${order}.webp`);
+  else return;
+});
