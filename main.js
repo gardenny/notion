@@ -88,3 +88,16 @@ btnArrowUp.addEventListener('click', () => {
   window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   removeClass();
 });
+
+// Make ham rotate
+// Make navbar & dark toggle
+const hamBtn = document.querySelector('.btn_ham');
+const dark = document.querySelector('.background_dark');
+hamBtn.addEventListener('click', e => {
+  e.currentTarget.classList.toggle('on');
+  navbarMenu.classList.toggle('on');
+  dark.classList.toggle('on');
+});
+dark.addEventListener('click', () => {
+  removeClass();
+});
