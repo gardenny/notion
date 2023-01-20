@@ -101,3 +101,9 @@ hamBtn.addEventListener('click', e => {
 dark.addEventListener('click', () => {
   removeClass();
 });
+
+// Reset when window resized
+window.addEventListener('resize', () => {
+  navbar.classList.remove('scrollNav');
+  removeClass();
+});
