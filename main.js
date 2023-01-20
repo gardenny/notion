@@ -75,3 +75,16 @@ let swiper = new Swiper('.mySwiper', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+// Show arrow up btn when scrolling
+const btnArrowUp = document.querySelector('.btn_arrow');
+document.addEventListener('scroll', () => {
+  if (window.scrollY > homeHeight / 2) btnArrowUp.classList.add('show');
+  else btnArrowUp.classList.remove('show');
+});
+
+// Click arrow up btn scrollIntoView #home
+btnArrowUp.addEventListener('click', () => {
+  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  removeClass();
+});
