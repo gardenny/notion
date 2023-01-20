@@ -42,3 +42,11 @@ navbarMenu.addEventListener('click', event => {
   scrollIntoView(link);
   removeClass();
 });
+
+// Make when home scrolled transparency
+const homeInner = document.querySelector('#home .inner');
+const homeHeight = home.offsetHeight;
+document.addEventListener('scroll', () => {
+  homeInner.style.opacity = 1 - window.scrollY / homeHeight;
+  // opacity (0 : transparent, 1 : untransparent)
+});
