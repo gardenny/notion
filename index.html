@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notion</title>
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+    <script src="https://kit.fontawesome.com/f506734a62.js" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- css & js -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="inner">
+        <div class="header_logo">
+          <h1>
+            <a href="index.html"
+              >Notion
+              <img src="img/logo.png" alt="Notion" />
+            </a>
+          </h1>
+        </div>
+        <nav id="navbar">
+          <ul class="navbar_menu">
+            <li data-link="#home">홈</li>
+            <li data-link="#about">개요</li>
+            <li data-link="#uses">활용법</li>
+            <li data-link="#global">스토리</li>
+            <li data-link="#rating">Notion</li>
+          </ul>
+          <ul class="navbar_sub">
+            <li>영업팀에 문의하기</li>
+            <li>로그인</li>
+          </ul>
+        </nav>
+        <button class="btn_free">
+          <a href="#">Notion 무료 체험</a>
+        </button>
+        <div class="btn_ham"><span>메뉴</span></div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- home -->
+      <section id="home">
+        <div class="inner">
+          <div class="home_bg">
+            <img src="img/home/home_bg.png" alt="home background" />
+          </div>
+          <div class="home_title">
+            <h2>모든 팀을 위한 <br />하나의 워크스페이스</h2>
+            <p>
+              <strong>Notion</strong>은 단순한 워드 프로세서가 아닙니다.<br />
+              내 스타일에 맞게 커스텀해서 사용하세요.
+            </p>
+            <button class="btn_free">
+              <a href="#">Notion 무료 체험</a>
+            </button>
+            <div class="home_brand">
+              <p>Trusted by 1,000,000+ teams including</p>
+              <ul class="home_brand_list">
+                <li><img src="img/home/brand_sendbird.png" alt="sendbird" /></li>
+                <li><img src="img/home/brand_hyosung.png" alt="HYOSUNG" /></li>
+                <li><img src="img/home/brand_gs.png" alt="GS" class="home_brand_logo" /></li>
+                <li><img src="img/home/brand_karrot.png" alt="karrot market" /></li>
+                <li><img src="img/home/brand_socar.png" alt="SOCAR" /></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section id="about">
+        <div class="inner">
+          <div class="about_cont" data-aos="fade-right">
+            <div class="about_title">
+              <span class="about_icon">
+                <img src="img/about/about_icon1.png" alt="block image" />
+              </span>
+              <h3>
+                <span>01</span>
+                <br />혼란은 줄이고, <br />팀워크는 높이고
+              </h3>
+              <p>
+                팀원들을 Notion에 모으고 프로젝트와 문서를 함께 관리하세요.<br />
+                협업이 쉬워지고 목표 달성이 빨라집니다.
+              </p>
+            </div>
+            <div class="about_tamp">
+              <img src="img/about/about_teamwork.webp" alt="템플릿 이미지1" />
+            </div>
+          </div>
+          <div class="about_cont" data-aos="fade-left">
+            <div class="about_title">
+              <span class="about_icon">
+                <img src="img/about/about_icon2.png" alt="block image" />
+              </span>
+              <h3>
+                <span>02</span>
+                <br />이거 뭐에 관한 거였지? <br />시간 낭비는 이제 그만
+              </h3>
+              <p>
+                업데이트되지 않는 위키, 여러 곳에 흩어진 문서는<br />
+                시간 낭비의 주범이죠. Notion에서는 모든 업무 내용과 정보를<br />
+                한데 관리하고 워크플로를 바로 파악할 수 있어요.
+              </p>
+            </div>
+            <div class="about_tamp">
+              <img src="img/about/about_meeting.webp" alt="템플릿 이미지1" />
+            </div>
+          </div>
+          <div class="about_cont" data-aos="fade-right">
+            <div class="about_title">
+              <span class="about_icon">
+                <img src="img/about/about_icon3.png" alt="block image" />
+              </span>
+              <h3>
+                <span>03</span>
+                <br />유연한 <br />워크플로 디자인
+              </h3>
+              <p>
+                내 업무 스타일에 맞게 Notion을 커스텀해 보세요.<br />
+                드래그 &#38; 드롭으로 대시보드, 웹사이트,<br />
+                문서, 시스템을 간편하게 만들 수 있습니다.
+              </p>
+            </div>
+            <div class="about_tamp">
+              <img src="img/about/about_custom.webp" alt="템플릿 이미지1" />
+            </div>
+          </div>
+          <div class="about_cont" data-aos="fade-left">
+            <div class="about_title">
+              <span class="about_icon">
+                <img src="img/about/about_icon4.png" alt="block image" />
+              </span>
+              <h3>
+                <span>04</span>
+                <br />글로벌 크리에이터 <br />생태계 활용하기
+              </h3>
+              <p>
+                커뮤니티에서 만든 수많은 템플릿과 API 통합,<br />
+                다양한 이벤트에서 아이디어를 얻어보세요.<br />
+                매번 번거롭게 따로 지원 요청을 하지 않아도<br />
+                늘 리소스가 곁에 있을 거예요.
+              </p>
+            </div>
+            <div class="about_tamp">
+              <img src="img/about/about_global.webp" alt="템플릿 이미지1" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- uses -->
+      <section id="uses">
+        <div class="inner">
+          <div class="uses_container" data-aos="fade-up">
+            <div class="uses_title">
+              <h3>모든 팀을 아우르는 <br />끝없이 다양한 활용법</h3>
+              <p>
+                모든 팀이 공통으로 겪는 문제도, 각 팀의 특수한 문제도,<br />
+                전부 Notion을 통해 한꺼번에 해결할 수 있습니다.<br />
+                이 페이지의 예시보다 무궁무진하게 많은 것들이 가능해요!
+              </p>
+              <button class="btn_free">
+                <a href="#">Notion 무료 체험</a>
+              </button>
+            </div>
+            <div class="uses_icon">
+              <img src="img/uses_icon.png" alt="books icon" />
+            </div>
+          </div>
+          <div class="uses_album" data-aos="fade-up">
+            <ul class="uses_album_categories">
+              <li data-order="1">✏️ 메모</li>
+              <li data-order="2">📌 작업</li>
+              <li data-order="3">📋 보고서</li>
+              <li data-order="4">🎨 디자인</li>
+              <li data-order="5">📚 메뉴얼</li>
+            </ul>
+            <div class="uses_album_photo">
+              <img src="img/uses/uses_photo1.webp" alt="template image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- template -->
+      <section id="template">
+        <div class="inner">
+          <div class="template_title" data-aos="fade-up">
+            <h3>원하는 대로 수정할 수 있는 <br />수천 개의 템플릿</h3>
+            <p>업무와 일상에서 사용할 수 있는 수천 개의 무료 템플릿을 구경하고 골라 보세요.</p>
+            <button class="btn_view">
+              <a href="#">모든 템플릿 보기 →</a>
+            </button>
+          </div>
+          <div class="template_icon" data-aos="fade-up">
+            <img src="img/template/template_icon.webp" alt="block icon" />
+          </div>
+          <div class="template_list" data-aos="fade-up">
+            <div class="template">
+              <div class="template_photo">
+                <div class="photo_dark"></div>
+                <img src="img/template/template1.webp" alt="회사 홈" />
+                <span class="template_desc">
+                  <a href="=#">More Templates</a>
+                </span>
+              </div>
+              <p>회사 홈</p>
+            </div>
+            <div class="template">
+              <div class="template_photo">
+                <div class="photo_dark"></div>
+                <img src="img/template/template2.webp" alt="콘텐츠 캘린더" />
+                <span class="template_desc">
+                  <a href="=#">More Templates</a>
+                </span>
+              </div>
+              <p>콘텐츠 캘린더</p>
+            </div>
+            <div class="template">
+              <div class="template_photo">
+                <div class="photo_dark"></div>
+                <img src="img/template/template3.webp" alt="디자인 시스템" />
+                <span class="template_desc">
+                  <a href="=#">More Templates</a>
+                </span>
+              </div>
+              <p>디자인 시스템</p>
+            </div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/uses/uses_photo1.webp" alt="swiper image1" />
+              </div>
+              <div class="swiper-slide"><img src="img/uses/uses_photo2.webp" alt="swiper image2" /></div>
+              <div class="swiper-slide"><img src="img/uses/uses_photo3.webp" alt="swiper image3" /></div>
+              <div class="swiper-slide"><img src="img/uses/uses_photo4.webp" alt="swiper image4" /></div>
+              <div class="swiper-slide"><img src="img/uses/uses_photo5.webp" alt="swiper image5" /></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- global -->
+      <section id="global">
+        <div class="inner">
+          <div class="global_title" data-aos="fade-up">
+            <h3>전 세계 혁신의 리더들이 사용하는 <br />Notion</h3>
+            <button class="btn_view">
+              <a href="#">고객 스토리 모두 읽어보기 →</a>
+            </button>
+          </div>
+          <div class="global_icon" data-aos="fade-up">
+            <img src="img/global/global_icon.png" alt="teamwork icon" />
+          </div>
+          <div class="global_client" data-aos="fade-up">
+            <div class="client">
+              <div class="client_company">
+                <img src="img/global/matchgroup.png" alt="MatchGroup" />
+              </div>
+              <p class="client_review">
+                "Notion은 누구에게나 안성맞춤인 워크스페이스입니다.<br />
+                사용자가 원하는 만큼 간단하거나 정교하게 만들어 사용할 수 있어요"
+              </p>
+              <div class="client_people">
+                <img src="img/global/global_people1.png" alt="product director" />
+                <p>
+                  <span>Rahim Makani</span>
+                  <br />프로덕트 디렉터
+                </p>
+              </div>
+            </div>
+            <div class="client">
+              <div class="client_company">
+                <img src="img/global/loom.png" alt="loom" />
+              </div>
+              <p class="client_review">
+                "Notion은 정보를 한곳에 모으고 다른 사용자에게 안내하기에 매우 용이합니다.<br />
+                팀 절반이 원격 근무를 하는 저희에게는 더할 나위 없이 중요한 도구죠."
+              </p>
+              <div class="client_people">
+                <img src="img/global/global_people2.webp" alt="product director" />
+                <p>
+                  <span>Vinay Hiremath</span>
+                  <br />공동 창업자 겸 엔지니어링 책임자
+                </p>
+              </div>
+            </div>
+            <div class="client">
+              <div class="client_company">
+                <img src="img/global/figma.png" alt="Loom" />
+              </div>
+              <p class="client_review">
+                "Notion의 장점은 편리함입니다.<br />
+                콘텐츠를 보기 쉽게 정리하고 직관적으로 찾을 수 있어요."
+              </p>
+              <div class="client_people">
+                <img src="img/global/global_people3.png" alt="product director" />
+                <p>
+                  <span>Marie Szuts</span>
+                  <br />인사팀장
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- display -->
+      <section id="display">
+        <div class="inner">
+          <div class="display_dark" data-aos="fade-up">
+            <div class="dark_title">
+              <h3>눈의 피로를 줄이고 싶으신가요?</h3>
+              <p>
+                명암비를 높여 화면을 선명하게 보고 싶나요?<br />
+                아니면 단순히 더 느낌 있는 스타일을 원하시나요?<br />
+                Notion에서는 다크 모드를 사용할 수 있습니다! 🌒
+              </p>
+            </div>
+            <div class="dark_photo">
+              <img src="img/dark.webp" alt="다크모드" />
+            </div>
+          </div>
+          <div class="dlsplay_mobile" data-aos="fade-up" data-aos-delay="300">
+            <div class="mobile_title">
+              <h3>Notion 모바일 앱</h3>
+              <p>
+                iOS나 Android 기기에 Notion을 다운로드하고 언제나 쉽게 사용할 수 있습니다.<br />
+                모바일 앱에서 Notion 콘텐츠를 읽고, 편집하고, 댓글을 달아보세요! 🤳
+              </p>
+            </div>
+            <div class="mobile_photo">
+              <img src="img/mobile.webp" alt="Notion mobile" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- rating -->
+      <section id="rating">
+        <div class="inner">
+          <h3 data-aos="fade-up">Notion이 고객들의 사랑을 받는 이유</h3>
+          <div class="rating_title" data-aos="fade-up">
+            <p>
+              <span>G2에서 최고 평가를 받은 Notion</span>
+              수백 건의 G2 리뷰에서 업계 리더로 높은 평가를<br />
+              받아 왔습니다. G2 정보를 직접 확인해 보세요!
+            </p>
+            <div class="rating_review" data-aos="fade-up">
+              <img src="img/rating.png" alt="G2 review" />
+            </div>
+          </div>
+          <div class="rating_sum" data-aos="fade-up">
+            <div class="rating">
+              <strong class="rating_value" data-value="86">86</strong>
+              <p>사용 편의성</p>
+            </div>
+            <div class="rating">
+              <strong class="rating_value" data-value="90">90</strong>
+              <p>관리자 기능 편의성</p>
+            </div>
+            <div class="rating">
+              <strong class="rating_value" data-value="91">91</strong>
+              <p>사용자 니즈 충족</p>
+            </div>
+            <div class="rating">
+              <strong class="rating_value" data-value="86">86</strong>
+              <p>손쉬운 셋업</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- start -->
+      <section id="start">
+        <div class="inner">
+          <div class="start_title" data-aos="fade-right">
+            <img src="img/start_logo.png" alt="Notion" />
+            <h3>오늘 바로 Notion을 사용해 보세요</h3>
+            <p>무료로 시작하고 <br />니즈에 따라 팀 전체를 추가하세요</p>
+            <button class="btn_free">
+              <a href="#">Notion 무료 체험</a>
+            </button>
+            <p>대규모 팀이라면 <span>영업팀에 문의하세요.</span></p>
+          </div>
+          <div class="start_characters" data-aos="fade-left">
+            <img src="img/start_characters.png" alt="various characters" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="inner">
+        <div class="footer_top">
+          <div class="footer_logo">
+            <img src="img/logo.png" alt="Notion" />
+          </div>
+          <ul class="footer_menu">
+            <li>
+              <h4>홈</h4>
+              <ul class="footer_menu_sub">
+                <li><a href="#">안내</a></li>
+                <li><a href="#">요금제</a></li>
+                <li><a href="#">고객 스토리</a></li>
+                <li><a href="#">연결</a></li>
+                <li><a href="#">데스크톱 앱</a></li>
+                <li><a href="#">모바일 앱</a></li>
+                <li><a href="#">Web Clipper</a></li>
+                <li><a href="#">보안</a></li>
+                <li><a href="#">이용약관</a></li>
+              </ul>
+            </li>
+            <li>
+              <h4>개요</h4>
+              <ul class="footer_menu_sub">
+                <li><a href="#">기업</a></li>
+                <li><a href="#">소기업</a></li>
+                <li><a href="#">개인</a></li>
+                <li><a href="#">원격 근무</a></li>
+                <li><a href="#">스타트업</a></li>
+                <li><a href="#">교육</a></li>
+                <li><a href="#">비영리단체</a></li>
+                <li><a href="#">엔지니어링</a></li>
+                <li><a href="#">제품</a></li>
+                <li><a href="#">디자인</a></li>
+                <li><a href="#">매니저</a></li>
+              </ul>
+            </li>
+            <li>
+              <h4>스토리</h4>
+              <ul class="footer_menu_sub">
+                <li><a href="#">블로그</a></li>
+                <li><a href="#">가이드와 튜토리얼</a></li>
+                <li><a href="#">도움말 센터</a></li>
+                <li><a href="#">웨비나</a></li>
+                <li><a href="#">템플릿 갤러리</a></li>
+                <li><a href="#">커뮤니티</a></li>
+                <li><a href="#">새로운 소식</a></li>
+                <li><a href="#">파트너 되기</a></li>
+                <li><a href="#">Notion 컨설턴트</a></li>
+                <li><a href="#">API 문서</a></li>
+                <li><a href="#">Evernote</a></li>
+                <li><a href="#">Confluence</a></li>
+              </ul>
+            </li>
+            <li>
+              <h4>Notion</h4>
+              <ul class="footer_menu_sub">
+                <li><a href="#">Notion 소개</a></li>
+                <li><a href="#">채용</a></li>
+                <li><a href="#">미디어 키트</a></li>
+                <li><a href="#">영업팀에 문의하기</a></li>
+                <li><a href="#">지원팀에 문의하기</a></li>
+                <li><a href="#">Notion 이메일</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_service">
+            <a href="#">쿠키 설정</a>
+            <a href="#">서비스 상태</a>
+            <p>©2022 Notion Labs, Inc.</p>
+          </div>
+          <div class="footer_sns">
+            <a href="#" class="twitter">
+              <i class="fa-brands fa-twitter"></i>
+              <span>트위터</span>
+            </a>
+            <a href="#" class="linkedin">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span>링크드인</span>
+            </a>
+            <a href="#" class="facebook">
+              <i class="fa-brands fa-facebook"></i>
+              <span>페이스북</span>
+            </a>
+            <a href="#" class="instagram">
+              <i class="fa-brands fa-instagram"></i>
+              <span>인스타그램</span>
+            </a>
+            <a href="#" class="youtube">
+              <i class="fa-brands fa-youtube"></i>
+              <span>유튜브</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- background_dark -->
+    <div class="background_dark"></div>
+
+    <!-- arrow up -->
+    <button class="btn_arrow">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
