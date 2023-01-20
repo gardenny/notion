@@ -20,3 +20,25 @@ document.addEventListener('scroll', () => {
     }
   }
 });
+
+// Make scrollIntoView function
+function scrollIntoView(selector) {
+  const scrollTo = document.querySelector(selector); // selector를 변수에 동적으로 할당
+  scrollTo.scrollIntoView({ behavior: 'smooth' });
+}
+
+// Remove all class 'on'
+function removeClass() {
+  hamBtn.classList.remove('on');
+  navbarMenu.classList.remove('on');
+  dark.classList.remove('on');
+}
+
+// Scroll into section
+navbarMenu.addEventListener('click', event => {
+  const target = event.target;
+  const link = target.dataset.link;
+  if (link == null) return; // if link value is null, function exit
+  scrollIntoView(link);
+  removeClass();
+});
