@@ -2,7 +2,7 @@
 
 # 📄 Notion
 
-Notion 공식 웹사이트 클론 코딩 👉 [Demo](https://imjone.github.io/notion/)
+Notion 공식 웹사이트 클론 코딩 👉 [Demo](https://gardenny.github.io/notion/)
 
 <br/>
 
@@ -36,7 +36,7 @@ Notion 공식 웹사이트 클론 코딩 👉 [Demo](https://imjone.github.io/no
 
 ## 💻 소스 코드
 
-전체 코드 보러 가기 👉 [Notion](https://imjone.notion.site/Notion-7260e6b7c68e467995630c2e52b664d5)
+전체 코드 보러 가기 👉 [Notion](https://imjone.notion.site/Notion-7260e6b7c68e467995630c2e52b664d5?pvs=4)
 
 ### 📍 스크롤 헤더 & 메뉴바
 
